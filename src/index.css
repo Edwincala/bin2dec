@@ -7,3 +7,23 @@
   margin: 0;
   background: url('./assets/25336.jpg') no-repeat;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 30%;
+  margin: 200px auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .app {
+    width: 100%;
+    padding: 20px 5px;
+  }
+}

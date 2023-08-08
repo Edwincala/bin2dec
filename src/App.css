@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 
-.app {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: 30%;
-  margin: 200px auto;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 20px;
-}
 
 input {
   font-family: 'Ubuntu', sans-serif;
