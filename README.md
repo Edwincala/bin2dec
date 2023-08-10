@@ -8,12 +8,15 @@ I'm planning on adding conversion to other number systems like octal or hexadeci
 
 ## Installation
 
-You will need to have [node](https://nodejs.dev/en/) installed on your computer as well as npm as the node package manager.
+You will need to have [node](https://nodejs.dev/en/) installed on your computer as well as a package manager like npm or yarn
 
 Clone the repository and run
 
 ```bash
+# If you use npm
 npm install
+# If you use yarn
+yarn install
 
 ```
 
@@ -21,4 +24,6 @@ Start the server by running
 
 ```bash
 npm run dev
+# or
+yarn dev
 ```
